@@ -25,7 +25,7 @@ const status = true
 if (status) {
     return new Ok({
         code: 200,
-        message: "Operation was successful."
+        message: "Operation was successful.",
         data: {
             id: 1,
             name: "John Wick"
